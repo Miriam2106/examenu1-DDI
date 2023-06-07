@@ -52,6 +52,7 @@ const subirVolumen = () =>{
     }
     if(tele.volumen == 0){
         tele.volumen = volumenOriginal
+        tele.mute = false
         imprimir()
         return
     }
@@ -67,6 +68,7 @@ const bajarVolumen = () =>{
     }
     if(tele.volumen == 0){
         tele.volumen = volumenOriginal
+        tele.mute = false
         imprimir()
         return
     }
